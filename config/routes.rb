@@ -1,2 +1,2 @@
-ScrivitoTwoColumns::Engine.routes.draw do
+ScrivitoTwoColumnWidget::Engine.routes.draw do
 end

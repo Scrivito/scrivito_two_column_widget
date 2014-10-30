@@ -6,7 +6,7 @@ require "scrivito_two_columns/version"
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "scrivito_two_columns"
-  s.version     = ScrivitoTwoColumns::VERSION
+  s.version     = ScrivitoTwoColumnWidget::VERSION
   s.authors     = ["Scrivito"]
   s.email       = ["support@scrivito.com"]
   s.homepage    = "https://www.scrivito.com"

@@ -10,7 +10,7 @@ Use Bootstrap in your Rails App. (Tested with Bootstrap 3.2)
 
 Add the gem to your Gemfile:
 
-    gem 'scrivito_two_columns'
+    gem 'scrivito_two_column_widget'
 
 Run bundle:
 
