@@ -11,3 +11,7 @@ Use Bootstrap in your Rails App.
 Add the gem to your Gemfile:
 
     gem 'scrivito_two_column_widget'
+
+## Customization
+
+We recomment to use [Scrivito Advanced Editors](https://github.com/Scrivito/scrivito_advanced_editors) for best usability.
