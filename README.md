@@ -1,17 +1,17 @@
-# Scrivito Two Columns
+# ScrivitoTwoColumnWidget
 
-This Gem adds a two-column grid widget to your Scrivito app. You can fill both columns with other widgets.
+This gem adds a Scrivito widget for dividing pages and page sections into two columns to your app.
 
 ## Prerequisites
 
-Use Bootstrap in your Rails App.
+Requires Bootstrap in your Rails App.
 
 ## Installation
 
-Add the gem to your Gemfile:
+Add this line to your application's Gemfile:
 
     gem 'scrivito_two_column_widget'
 
 ## Customization
 
-We recomment to use [Scrivito Advanced Editors](https://github.com/Scrivito/scrivito_advanced_editors) for best usability.
+We recommend to use [Scrivito Advanced Editors](https://github.com/Scrivito/scrivito_advanced_editors) which provides nicer controls.
