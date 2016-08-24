@@ -1,9 +1,9 @@
-<div class="row">
-  <div class="col-md-<%= widget.column_1_width %>">
-    <%= scrivito_tag(:div, widget, :column_1, class: 'list_item') %>
+<div class="scrivito-column-widget row <%= widget.grid_size_class %>">
+  <div class="col-<%= widget.device_class %>-<%= widget.column_1_width %>">
+    <%= scrivito_tag(:div, widget, :column_1) %>
   </div>
 
-  <div class="col-md-<%= widget.column_2_width %>">
-    <%= scrivito_tag(:div, widget, :column_2, class: 'list_item') %>
+  <div class="col-<%= widget.device_class %>-<%= widget.column_2_width %>">
+    <%= scrivito_tag(:div, widget, :column_2) %>
   </div>
 </div>
