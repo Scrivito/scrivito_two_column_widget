@@ -12,6 +12,10 @@ Add this line to your application's Gemfile:
 
     gem 'scrivito_two_column_widget'
 
+Add this line to your application stylesheet manifest:
+
+    *= require scrivito_two_column_widget
+
 ## Customization
 
 We recommend to use [Scrivito Advanced Editors](https://github.com/Scrivito/scrivito_advanced_editors) which provides nicer controls.
