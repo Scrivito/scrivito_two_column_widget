@@ -1,14 +1,11 @@
-<%= scrivito_details_for 'column 1' do %>
-  <%= scrivito_tag(:div, widget, :column_1_width) %>
-<% end %>
 <%= scrivito_details_for t('scrivito_two_column_widget.details.column_1_width', default: 'Width for column 1') do %>
   <%= scrivito_tag(:div, widget, :column_1_width) %>
 <% end %>
 
-<%= scrivito_details_for t('scrivito_two_column_widget.details.grid_size', default: 'Grid Size') do %>
-  <%= scrivito_tag(:div, widget, :grid_size) %>
+<%= scrivito_details_for t('scrivito_two_column_widget.details.grid_size', default: 'Gutter Size') do %>
+  <%= scrivito_tag(:div, widget, :grid_size, class: 'scrivito-image-button', data:{ toggle_button_caption: TwoColumnWidget.gutter_size_button_images }) %>
 <% end %>
 
 <%= scrivito_details_for t('scrivito_two_column_widget.details.keep_columns', default: 'Show columns on mobile') do %>
-  <%= scrivito_tag(:div, widget, :keep_columns) %>
+  <%= scrivito_tag(:div, widget, :keep_columns, class: 'scrivito-image-button', data:{ toggle_button_caption: TwoColumnWidget.column_on_mobile_button_images }) %>
 <% end %>
